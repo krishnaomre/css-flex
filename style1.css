@@ -1,0 +1,34 @@
+.parent{
+    border:2px solid black;
+    background-color: yellow;
+   /* width:800px;*/
+    height:500px;
+   display:flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+   
+    flex-direction:colum;
+    /*
+justify-content: space-around;*/
+justify-content: space-evenly;
+/* right
+left
+space-evently
+space-around
+space-between*/
+
+}
+.child{
+    border:2px solid black;
+    background-color: chocolate;
+    width:80px;
+    height:70px;
+    font-size:40px ;
+
+}
+child{
+    flex-grow: 1;
+}
+.child-2{
+    flex-grow: 2;
+}
